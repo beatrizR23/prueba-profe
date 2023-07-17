@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+    /* que todo el body lleve el mismo color */
+
+}
+
+.mimenu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+ h1,h2,h3,h4{
+    display: flex;
+    justify-content:center;
+    /* el titulo esta centrado con flex*/
+}
+
+.contimagenytexto {
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.enlinea {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#distribuirlo {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#letra{
+    font-size: 2rem;
+}
+
+#tamaño{ 
+    display: flex;
+    justify-content: center;
+
+ } 
